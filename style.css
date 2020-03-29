@@ -1,0 +1,192 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+.container{
+	padding:0px 12px 12px 12px;
+}
+.panel-title{
+	margin-bottom: 12px;
+}
+
+.panel-title h2{
+	margin:0px;
+	padding:12px 0px 14px 0px;
+	border-bottom: 2px solid gray;
+}
+.net{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.box{
+	color:white;
+	padding:30px;
+	width:250px;
+	text-align: center;
+	font-size: 1.5em;
+}.w1{background-color: #1dd0ad;}
+.w2{background-color: #2fcc72;}
+.w3{background-color: #f1c40f;}
+.w4{background-color: #e74c3c;}
+.w5{background-color: salmon;}
+.w6{background-color: darkblue;}
+.w7{background-color: orange;}
+.w8{background-color: black;}
+
+.cth-flex{
+	display: flex;
+}
+.cth-flex-direction-row{
+	display: flex;
+	flex-direction: row;
+}
+.cth-flex-direction-column{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.cth-flex-wrap-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+}
+.cth-order{
+	display: flex;
+	flex-wrap:wrap;
+}
+.cth-order .w4{
+	order:1;
+}
+.cth-justify-content-flex-start{
+	display: flex;
+	justify-content: flex-start;
+}
+.cth-justify-content-flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+.cth-justify-content-center{
+	display: flex;
+	justify-content: center;
+}
+.cth-justify-content-space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.cth-justify-content-space-around{
+	display: flex;
+	justify-content: space-around;
+}
+.cth-height{
+	display: flex;
+	align-items: stretch;
+	height:400px;
+}
+.cth-align-item-flex-start{
+	display: flex;
+	height: 400px;
+	align-items: flex-start;
+}
+.cth-align-item-flex-end{
+	display: flex;
+	height: 400px;
+	align-items: flex-end;
+}
+.cth-align-item-center{
+	display: flex;
+	height: 400px;
+	align-items: center;
+}
+.cth-align-item-baseline{
+	display: flex;
+	height: 400px;
+	align-items: baseline;
+}
+.cth-align-item-baseline .w1{
+	font-size:40px;
+}
+.cth-align-item-baseline .w3{
+	font-size:10px;
+}
+.cth-align-content-stretch{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: stretch;
+}
+.cth-align-content-flex-start{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: flex-start;
+}
+.cth-align-content-flex-end{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: flex-end;
+}
+.cth-align-content-center{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: center;
+}
+.cth-align-content-space-between{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: space-between;
+}
+.cth-align-content-space-around{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: space-around;
+}
+.box-s{
+	color:white;
+	padding:30px;
+	width:250px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.cth-flex-grow{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cth-flex-grow .box-s{
+	flex-grow: 1;
+	/*digunakan untuk memaksa setiap item untuk memenuhi ruang yang kosong
+	  perintah ini juga dapat digunakan pada item tertentu
+	*/
+}
+.box-sk{
+	color:white;
+	padding:30px;
+	text-align: center;
+	font-size: 1.5em;
+	width:200px;
+}
+.cth-flex-shrink{
+	display: flex;
+	width:900px;
+}
+.box-sk:nth-of-type(4){
+	flex-shrink: 10;
+}
+
+.box-bs{
+	color:white;
+	padding:30px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.cth-flex-basis{
+	display: flex;
+}
+.cth-flex-basis .box-bs{
+	flex-basis: 300px;
+	/*Penggunaannya sama dengan width ataupun height, yaitu memberikan panjang atau tinggi sesuai dengan nilainya
+	apabila posisi flex horizontal maka ukuran height akan ditentukan bigitupula dengan sebaliknya
+	*/
+}
